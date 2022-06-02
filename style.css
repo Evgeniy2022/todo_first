@@ -1,0 +1,169 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border- box;
+	-webkit-box-sizing: border- box;
+	box-sizing: border- box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-ms-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: url('backround.jpeg') 0 0 / cover no-repeat;
+	margin: 0 auto;
+	font-size: 15px;
+
+}
+.container {
+	padding-top: 10px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.container__add-tasks{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#task__input{
+	background-color: inherit;
+	padding: 10px 40px;
+	font-size: 15px;
+	font-weight: 600;
+}
+#task__input::placeholder{
+	color: #ff0077;
+	font-weight: 600;
+}
+.btn {
+	margin-right: 10px;
+}
+
+.btn-siccess {
+	font-size: 15px;
+	font-weight: normal;
+	background-color: #CC6633;
+	transition: all 0.4s ease-in;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+.btn-siccess:hover{
+	border-radius: 8px;
+	background-color: #f15c11;
+	color: #fff;
+	transition: all 0.4s ease-in;
+}
+
+.btn-input {
+	font-size: 15px;
+	font-weight: normal;
+	background-color: #0066FF;
+	transition: all 0.4s ease-in;
+	padding: 10px 40px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+.btn-input:hover{
+	background-color: #003cff;
+	transition: all 0.4s ease-in;
+	color: aliceblue;
+}
+
+.list__group {
+	color: rgb(8, 8, 8);
+}
+
+
+.list__group-item {
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.list__group-item:first-child{
+	margin-bottom: 5px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 16px;
+	color: #000;
+}
+.active{
+	background-color: #00ff15;
+}
